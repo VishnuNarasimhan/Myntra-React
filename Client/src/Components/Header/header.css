@@ -1,0 +1,85 @@
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  margin-top: 1px;
+  -webkit-box-shadow: -4px 6px 20px -8px rgba(59, 59, 59, 1);
+  -moz-box-shadow: -4px 6px 20px -8px rgba(59, 59, 59, 1);
+  box-shadow: -4px 6px 20px -8px rgba(59, 59, 59, 1);
+  margin-top: -100px;
+}
+
+.myntra-logo {
+  width: 55px;
+  height: 40px;
+  margin-right: 60px;
+  margin-left: 25px;
+}
+
+.header-names {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2%;
+}
+
+.header-names h4 {
+  margin-right: 20px;
+  margin-left: 30px;
+}
+
+.input-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 48%;
+  margin-right: 35px;
+}
+
+.input-icon-div-img {
+  height: 45px;
+  width: 40px;
+  background-color: rgb(232, 228, 228);
+  margin-left: 4%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.input-icon-img {
+  margin-top: 15px;
+  margin-left: 15px;
+  border: none;
+  background-color: rgb(232, 228, 228);
+}
+
+.search-bar-input {
+  width: 70%;
+  padding: 2%;
+  border: none;
+  background-color: rgb(232, 228, 228);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.user-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  float: right;
+}
+
+.user-icons-profile {
+  margin-left: 20px;
+}
+.user-icons-wishlist {
+  margin-left: 20px;
+}
+.user-icons-bag {
+  margin-left: 20px;
+}

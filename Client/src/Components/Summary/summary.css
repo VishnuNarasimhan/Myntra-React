@@ -1,0 +1,87 @@
+.summary-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 6.5%;
+}
+
+.summary-image-div {
+  display: flex;
+  justify-content: center;
+  border: 1px solid gainsboro;
+  width: 60%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10%;
+}
+
+.summary-image {
+  width: 40%;
+  height: 15%;
+  border-radius: 5px;
+  -webkit-box-shadow: -4px 6px 18px -8px rgba(59, 59, 59, 1);
+  -moz-box-shadow: -4px 6px 18px -8px rgba(59, 59, 59, 1);
+  box-shadow: -4px 6px 18px -8px rgba(59, 59, 59, 1);
+}
+
+.summary-right-content-div {
+  margin-top: 10%;
+}
+
+.summary-h5 {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.summary-p1 {
+  color: #535665;
+  padding: 5px 20px 14px 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.summary-hr {
+  color: #00188d;
+  margin-bottom: 5%;
+}
+
+.summary-p2 {
+  color: #282c3f;
+  font-weight: 600;
+  margin-bottom: 10%;
+  font-size: 30px;
+}
+
+.summary-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.summary-btn-1 {
+  width: 60%;
+  padding: 5% 5%;
+  border-radius: 5px;
+  background-color: crimson;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  border: none;
+  letter-spacing: 0.5px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.summary-btn-2 {
+  width: 60%;
+  padding: 5% 10%;
+  border-radius: 5px;
+  border: 1px solid rgb(205, 194, 194);
+  font-size: 15px;
+  font-weight: 500;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+}
